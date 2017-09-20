@@ -177,10 +177,24 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    background-color: #fff;
+}
+
+.services h4,
+.services p {
+    color: black;
 }
 
 .service-item {
     margin-bottom: 30px;
+}
+
+.fa-circle {
+    color: #ffba7f;
+}
+
+.service-icon {
+    color: #fff;
 }
 
 
