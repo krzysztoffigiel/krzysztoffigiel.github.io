@@ -14,7 +14,7 @@ body {
 }
 
 body {
-    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .text-vertical-center {
@@ -79,10 +79,8 @@ hr.small {
     width: 250px;
     height: 100%;
     -webkit-transition: all .4s ease 0s;
-    -moz-transition: all .4s ease 0s;
-    -ms-transition: all .4s ease 0s;
-    -o-transition: all .4s ease 0s;
     transition: all .4s ease 0s;
+    -webkit-transform: translateX(250px);
     transform: translateX(250px);
     background: #222;
 }
@@ -144,9 +142,6 @@ hr.small {
     right: 250px;
     width: 250px;
     -webkit-transition: all .4s ease 0s;
-    -moz-transition: all .4s ease 0s;
-    -ms-transition: all .4s ease 0s;
-    -o-transition: all .4s ease 0s;
     transition: all .4s ease 0s;
 }
 
@@ -164,11 +159,10 @@ hr.small {
     display: table;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/bkg.jpg) no-repeat center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bkg.jpg) no-repeat center center scroll;
     background-size: cover;
+    color: #fff;
 }
 
 
@@ -198,9 +192,6 @@ hr.small {
     height: 400px;
     color: #fff;
     background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
