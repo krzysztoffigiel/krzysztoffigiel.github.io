@@ -166,8 +166,8 @@ hr.small {
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
+    z-index: -1;
 }
-
 
 /* About */
 

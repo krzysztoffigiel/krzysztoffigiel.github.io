@@ -4,4 +4,5 @@
 + Background image dive effect
 + Section about
 + Smooth scrolling
+- Bacground image effect in Safari fix
 
