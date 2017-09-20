@@ -259,6 +259,11 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.portfolio-item img{
+    height: 200px;
+    width: auto;
+}
+
 .img-portfolio {
     margin: 0 auto;
 }
@@ -309,6 +314,30 @@ footer {
     bottom: 5px;
     display: none;
     padding: 15px 20px;
+}
+
+.social-list .fa-facebook {
+    color: #3b5998;
+}
+
+.social-list .fa-facebook:hover {
+    color: rgba(59, 89, 152, 0.8);
+}
+
+.social-list .fa-twitter {
+    color: #55acee;
+}
+
+.social-list .fa-twitter:hover {
+    color: rgba(85, 172, 238, 0.8);
+}
+
+.social-list .fa-instagram {
+    color: #e95950;
+}
+
+.social-list .fa-instagram:hover {
+    color: rgba(233, 89, 80, 0.8);
 }
 
 /* Animations */
