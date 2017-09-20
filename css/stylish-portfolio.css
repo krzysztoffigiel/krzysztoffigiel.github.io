@@ -164,9 +164,11 @@ hr.small {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/bg.jpg) no-repeat center center scroll;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg.jpg) no-repeat center center scroll;
     background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
     color: #fff;
-    /*background-attachment: fixed;
-    z-index: -1;*/
+    background-attachment: fixed;
 }
 
 /* About */
