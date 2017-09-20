@@ -65,7 +65,9 @@ body {
 /* Custom Horizontal Rule */
 
 hr.small {
-    max-width: 100px;
+    max-width: 400px;
+    background-color: #ffba7f;
+    height: 1px;
 }
 
 
@@ -163,6 +165,7 @@ hr.small {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg.jpg) no-repeat center center scroll;
     background-size: cover;
     color: #fff;
+    background-attachment: fixed;
 }
 
 
@@ -172,16 +175,42 @@ hr.small {
     padding: 50px 0;
 }
 
+.about-title h2 {
+    text-align: center;
+}
+
+.about-text h2 {
+    font-size: 23px;
+    color: #111;
+}
+
+.about-text h3 {
+    font-size: 15px;
+    color: #8d8d8d;
+    text-transform: uppercase;
+}
+
+.about-photo img {
+    margin-top: 30px;
+    width: 75%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
 
 /* Services */
 
 .services {
     padding: 50px 0;
-    background-color: #fff;
+    background-color: #e5e5e5;
 }
 
 .services h4,
-.services p {
+.services p,
+.services h2 {
     color: black;
 }
 
@@ -270,4 +299,17 @@ footer {
     bottom: 5px;
     display: none;
     padding: 15px 20px;
+}
+
+/* Animations */
+.js--wp-1,
+.js--wp-2 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated {
+    opacity: 1;
 }

@@ -1,0 +1,7 @@
++ Media Queries for <Responsive Web Design> section
++ Service section icons animation
+- Service section icons content
++ Background image dive effect
++ Section about
++ Smooth scrolling
+

@@ -16,9 +16,11 @@
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/css/animate.css">
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/queries.css">
 
   </head>
 
@@ -62,67 +64,103 @@
         <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">More informations</a>
       </div>
     </header>
+    
+      <!-- About -->
+      <section id="about" class="about">
+          <div class="container">
+             <div class="row">
+                 <div class="col-lg-10 mx-auto">
+                    <div class="about-title">
+                        <h2 class="text-center">About me</h2>
+                        <hr class="small">
+                    </div>
+                 </div>
+                 <div class="row">   
+                     <div class="col-xs-12 col-md-6">
+                             <figure class="about-photo">
+                                 <img src="img/profile.jpg" alt="Krzysztof Figiel zdjęcie" class="img-responsive img-thumbnail js--wp-2">
+                             </figure>
+                     </div>
+                     <div class="col-xs-12 col-md-6">
+                         <div class="about-text">
+                             <h2>Krzysztof Figiel</h2>
+                             <h3>Web designer &#124; front-end developer</h3>
+                             <p class="lead">Pasjonuję się bieganiem oraz wędkarstwem, a od czasu studiów moim nowym hobby stał się szeroko rozumiany Web Development ze szczególnym nastawieniem na front-end, dlatego też dążę wszelkimi możliwymi drogami do zdobycia doświadczenia w tym kierunku i bycia na bieżąco z najnowszymi trendami. W wolnych chwilach zajmuję się tworzeniem i edytowaniem grafiki wektorowej, czy obróbką cyfrową zdjęć. Jestem osobą kreatywną nieco inaczej patrzącą na otaczający mnie świat. Moim atutem jest umiejetność przelewania świata rzeczywistego na papier za pomocą ołówka i kartki papieru. Myślę, że zestawiając te wszystkie umiejętności ze sobą mógłbym doskonale spełniać się w procesie tworzenia nowoczesnych stron internetowych. 
+                             </p>
+                             <div class="about-bottom-row">
+                                 <a class="btn btn-primary" href="#services">
+                                     <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                     <span>Zobacz wiecej</span>
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+          </div>
+          <!-- /.container -->
+      </section>
 
     <!-- Services -->
-    <section id="services" class="services text-white">
+      <section id="services" class="services text-white js--section-features">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-10 mx-auto">
-            <h2>Our Services</h2>
+            <h2>Services</h2>
             <hr class="small">
-            <div class="row">
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-cloud fa-stack-1x service-icon"></i>
-                  </span>
-                  <h4>
-                    <strong>Service Name</strong>
-                  </h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-compass fa-stack-1x service-icon"></i>
-                  </span>
-                  <h4>
-                    <strong>Service Name</strong>
-                  </h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-flask fa-stack-1x service-icon"></i>
-                  </span>
-                  <h4>
-                    <strong>Service Name</strong>
-                  </h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-shield fa-stack-1x service-icon"></i>
-                  </span>
-                  <h4>
-                    <strong>Service Name</strong>
-                  </h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
-                </div>
-              </div>
+              <div class="row js--wp-1">
+                  <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                      <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-cloud fa-stack-1x service-icon"></i>
+                      </span>
+                      <h4>
+                        <strong>Service Name</strong>
+                      </h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <a href="#" class="btn btn-light">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                      <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-compass fa-stack-1x service-icon"></i>
+                      </span>
+                      <h4>
+                        <strong>Service Name</strong>
+                      </h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <a href="#" class="btn btn-light">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                      <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-flask fa-stack-1x service-icon"></i>
+                      </span>
+                      <h4>
+                        <strong>Service Name</strong>
+                      </h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <a href="#" class="btn btn-light">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                      <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-shield fa-stack-1x service-icon"></i>
+                      </span>
+                      <h4>
+                        <strong>Service Name</strong>
+                      </h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <a href="#" class="btn btn-light">Learn More</a>
+                    </div>
+                  </div>
             </div>
             <!-- /.row (nested) -->
           </div>
@@ -258,7 +296,11 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendor/jquery/jquery.waypoints.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.js"></script>
