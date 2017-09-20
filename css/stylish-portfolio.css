@@ -191,6 +191,8 @@ hr.small {
     font-size: 15px;
     color: #8d8d8d;
     text-transform: uppercase;
+    border-left: thick double #ffba7f;
+    padding: 5px;    
 }
 
 .about-photo img {
@@ -202,6 +204,11 @@ hr.small {
     transform: scale(1.15);
     -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
     transition: transform 0.5s, opacity 0.5s;
+}
+
+.about .btn-about {
+    background-color: #ffba7f;
+    color: white;
 }
 
 /* Services */
