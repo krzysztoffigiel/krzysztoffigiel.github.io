@@ -29,6 +29,12 @@
     }, {
         offset: '50%'
     });
+    
+    $('.js--wp-3').waypoint(function(direction) {
+        $('.js--wp-3').addClass('animated jackInTheBox');
+    }, {
+        offset: '50%'
+    });
 
     // Closes the sidebar menu
     $("#menu-close").click(function (e) {
