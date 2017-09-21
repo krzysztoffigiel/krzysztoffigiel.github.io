@@ -8,8 +8,13 @@
     .about {
         padding: 50px 30px;
     }
+    
     .about-photo {
         margin-left: 20px;
+    }
+    
+    .about .btn-about {
+        float: right;
     }
 }
 
@@ -17,8 +22,13 @@
     .about {
         padding: 50px 30px;
     }
+    
     .about-photo {
         margin-left: 20px;
+    }
+    
+    .about .btn-about {
+        float: right;
     }
 }
 
@@ -26,26 +36,37 @@
     .header {
         padding: 0 50px;
     }
+    
     .header h1,
     .callout h1{
         font-size: 50px;
     }
+    
     .header h3 {
         margin-top: 10px;
         font-size: 25px;
     }
+    
     .callout {
         padding: 0 20px;
     }
+    
     .about {
         padding: 50px 30px;
     }
+    
     .about-text h2 {
         margin-top: 20px;
     }
+    
     .about-photo {
         text-align: center;
     }
+    
+    .about .btn-about {
+        float: right;
+    }
+    
     .header {
         position: relative;
         display: table;
@@ -62,8 +83,8 @@
     }
 }
 
-@media only screen and (max-width: 480px)
-
 @media only screen and (max-width: 480px) {
-    
+    .about .btn-about {
+        float: right;
+    }
 }
