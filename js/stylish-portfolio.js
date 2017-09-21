@@ -48,6 +48,16 @@
         $("#sidebar-wrapper").toggleClass("active");
     });
     
+    //Enlarging photo on click
+    var $img = $('img');
+    
+    $img.click(function resize(e) {
+        $img.css({
+            height: '300px',
+            width: '450px'
+        });
+    });
+    
     $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
