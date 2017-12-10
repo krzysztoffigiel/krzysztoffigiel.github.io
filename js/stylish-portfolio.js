@@ -23,14 +23,14 @@
     }, {
         offset: '20%'
     });
-    
-    $('.js--wp-2').waypoint(function(direction) {
+
+    $('.js--wp-2').waypoint(function (direction) {
         $('.js--wp-2').addClass('animated fadeInUp');
     }, {
         offset: '50%'
     });
-    
-    $('.js--wp-3').waypoint(function(direction) {
+
+    $('.js--wp-3').waypoint(function (direction) {
         $('.js--wp-3').addClass('animated jackInTheBox');
     }, {
         offset: '50%'
@@ -47,22 +47,22 @@
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
     });
-    
+
     //Enlarging photo on click
     var $img = $('img');
-    
+
     $img.click(function resize(e) {
         $img.css({
             height: '300px',
             width: '450px'
         });
     });
-    
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+    $(function () {
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                 var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                 if (target.length) {
                     $('html,body').animate({
                         scrollTop: target.offset().top
@@ -102,6 +102,22 @@
             }
         }
     });
+
+    function animatedProgressBar() {
+        $('.skillbar').each(function () {
+            $(this).find('.skillbar-bar').animate({
+                width: $(this).attr('data-percent')
+            }, 2000);
+        });
+    }
+
+    var waypoint = new Waypoint({
+        element: document.getElementById('skills'),
+        handler: function(direction) {
+            animatedProgressBar();
+        }
+    }, {offset: '10%'})
+
 
 })(jQuery); // End of use strict
 
