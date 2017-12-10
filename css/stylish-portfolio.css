@@ -437,6 +437,16 @@ footer {
     color: rgba(233, 89, 80, 0.8);
 }
 
+.logo {
+    margin-top: 20px;
+    height: 200px;
+    width: auto;
+}
+
+.logo img {
+    image-rendering: auto;
+}
+
 
 /* Animations */
 
